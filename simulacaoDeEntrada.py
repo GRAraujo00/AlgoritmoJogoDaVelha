@@ -32,11 +32,13 @@ Primeira iteração:
 
 A função é chamada com o tabuleiro inicial e is_maximizing = True.
 Como o tabuleiro está vazio, ela tenta o primeiro movimento para 'O' e chama minimax recursivamente.
+
 Segunda iteração:
 
 O tabuleiro tem 'O' no primeiro lugar.
 A função é chamada para is_maximizing = False.
 Tenta todos os movimentos para 'X' e chama minimax recursivamente.
+
 Terceira iteração:
 
 Continua com as tentativas de movimento, alternando entre 'O' e 'X', chamando minimax recursivamente até alcançar um estado terminal (vitória, empate ou tabuleiro cheio)."""
